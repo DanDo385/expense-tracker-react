@@ -14,7 +14,7 @@ const TransactionList = () => {
                 {transactions.map(transaction => (<Transaction key = {transaction.id} transaction={transaction} />))}
              </ul>
         </>
-        )
+        );
 }
 
 export default TransactionList;

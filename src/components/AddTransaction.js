@@ -1,6 +1,10 @@
 
 
-const AddTransaction = () => {
+import { useState, useContext } from 'react';
+import { GlobalContext } from '../context/GlobalState'; 
+
+
+export const AddTransaction = () => {
   return (
     <>
      <h3>Add new transaction</h3>
@@ -20,5 +24,3 @@ const AddTransaction = () => {
     </>
   );
 }
-
-export default AddTransaction;
