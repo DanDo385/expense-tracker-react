@@ -27,3 +27,5 @@ export const GlobalProvider = ({ children }) => {
         </GlobalContext.Provider>
     );
 }
+
+export default GlobalProvider;
